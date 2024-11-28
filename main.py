@@ -30,5 +30,5 @@ while True:
         else:
             print("Correct locations, but the weights is incorrect. Try again")
     else:
-        print(f"Wrong guesses. The boxes are moving to new spots. ") 
+        print("Wrong guesses. The boxes are moving to new spots. ") 
         locations = [random.randint(1, 8) for _ in range(3)]
